@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Cute+Font&family=Handlee&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  background: rgb(4, 4, 51);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0 150px;
+}
+.ATMbg {
+  background-image: url('./assets/ATM.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+
+}
+.Foodbg {
+  background-image: url('./assets/Food-web.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+ 
+}
+.Linkdeinbg {
+  background-image: url('./assets/Linkedin.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+
+}
+.Patientbg{
+  background-image: url('./assets/Patient.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+
+}
+.Youtube {
+  background-image: url('./assets/Youtube.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+
+}
+.Profile {
+  background-image: url('./assets/ProfilePhoto.jpeg'); 
+  background-size: cover;
+  background-position: center;
+ 
+
+}
+img {
+  border-radius: 50% !important;
+  height: 250px;
+  width: 250px;
+}
