@@ -1,23 +1,59 @@
 import React from 'react'
-import Profileimg from "../src/assets/Profile.jpeg"
+// import "react-responsive-carousel/lib/styles/carousel.min.css"
+// import { Carousel } from 'react-responsive-carousel'
+
 import ProjectComponent from './component/ProjectComponent'
-import Foodbg from "../src/assets/Food-web.jpeg"
+import "./index.css"
+
 function Projects() {
   return (
-    <div className='my-14'>
-        <h3 className='text-3xl font-bold  mb-10 text-center text-white'>Projects</h3>
-        {/* Project one */}
-      <div className='bg-blue-950 text-white font-semibold grid grid-cols-3 text-xl px-4 py-5 rounded-md'>
-        {/* <img src={Profileimg} alt="" className='rounded-xl py-1'/>
-        <p >Web Design for Digital Marketing</p> */}
-<ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
-<ProjectComponent bg="Linkdeinbg" language='Built with HTML, CSS' name="Linkedin Clone" link=" https://prismatic-snickerdoodle-14a06f.netlify.app/"/>
-<ProjectComponent bg="Youtube Clone" language='Built with HTML, CSS' name="Youtube Clone" link="https://youtubmk.netlify.app/" />
-<ProjectComponent bg="ATMbg" language='Built with HTML, CSS & JS' name="ATM" link="https://funny-madeleine-112377.netlify.app/" />
-<ProjectComponent />
+    // <div id='projects' className='mt-24'>
+    //   <h3 className='text-3xl font-bold mb-10 text-center text-white'>Projects</h3>
 
-      </div>
+    //   <Carousel
+    //     showArrows={true}
+    //     showThumbs={false}
+    //     showStatus={false}
+    //     infiniteLoop={true}
+    //     autoPlay={true}
+    //     interval={3000}
+    //     className="text-white px-4"
+    //   >
+    //     <div>
+    //       <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
+    //     </div>
+    //     <div>
+    //       <ProjectComponent bg="Linkdeinbg" language='Built with HTML, CSS' name="Linkedin Clone" link="https://prismatic-snickerdoodle-14a06f.netlify.app/"/>
+    //     </div>
+    //     <div>
+    //       <ProjectComponent bg="Youtube Clone" language='Built with HTML, CSS' name="Youtube Clone" link="https://youtubmk.netlify.app/" />
+    //     </div>
+    //     <div>
+    //       <ProjectComponent bg="Notesy" language='Nextjs' name="Note App" link="https://notesy-eta.vercel.app/" />
+    //     </div>
+    //     {/* <div>
+    //       <ProjectComponent bg="Ecommercebg" language='React + Redux' name="E-commerce App" link="https://ecommk.netlify.app/" />
+    //     </div> */}
+    //     {/* <div>
+    //       <ProjectComponent bg="PortfolioBG" language='HTML + CSS' name="Personal Portfolio" link="https://monikakhadeportfolio.netlify.app/" />
+    //     </div>
+    //     <div>
+    //       <ProjectComponent bg="TodoBG" language='React' name="Todo App" link="https://todoappmk.netlify.app/" />
+    //     </div> */}
+    //   </Carousel></div>
+    <div className='grid grid-cols-3 gap-24'>
+
+        <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
+         <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
+           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
+           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
+           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
+           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
+
+
     </div>
+
+  
   )
 }
 

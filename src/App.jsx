@@ -10,18 +10,29 @@ import Contact from './Contact'
 
 function App() {
   return (
-    <div className='mx-12 box-border'>
-      App
+    <div className='mx-12 box-border my-5'>
       <Header/>
-     <div className='flex'>
+     <div>
      <Home/>
-     <Profile/>
+     {/* <Profile/> */}
      </div>
-     <AboutMe/>
-     <Academic/>
-     <Skills/>
-     <Projects/>
-     <Contact/>
+      <section id="about" >
+      {/* <AboutMe/> */}
+      </section>
+      {/* <Academic/> */}
+
+      <section id="projects" >
+        <Projects />
+      </section>
+
+      <section id="skills" >
+        <Skills />
+      </section>
+    
+     <div className='flex'>
+     </div>
+   
+  <Contact/>
     </div>
   )
 }

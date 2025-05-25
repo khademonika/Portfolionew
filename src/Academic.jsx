@@ -2,7 +2,7 @@ import React from 'react';
 
 function Academic() {
   return (
-    <div className="bg-gray-900 text-white mt-10 p-8 rounded-lg shadow-lg max-w-2xl mx-auto">
+    <div id='academic' className="bg-gray-900 text-white mt-24 p-8 rounded-lg shadow-lg max-w-2xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-6">
         Academic{' '}
         <span className="bg-gradient-to-r from-orange-600 to-white bg-clip-text text-transparent">

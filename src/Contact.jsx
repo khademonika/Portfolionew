@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Contact() {
+
   return (
-    <div className='my-14 '>
-      <h3 className='text-3xl font-bold text-center text-white'>Contact <span className='bg-gradient-to-r from-orange-400 to-purple-600 bg-clip-text text-transparent'>With Me</span></h3>
+    <div className='my-24 ' id='contact'>
+      <h3 className='text-3xl font-bold text-center my-10 text-white'>Contact <span className='bg-gradient-to-r from-orange-400 to-purple-600 bg-clip-text text-transparent'>With Me</span></h3>
       <div className='bg-gradient-to-r text-white lg:flex from-orange-400 to-purple-600 px-10 py-5 rounded-tr-[60px] w-full rounded-bl-[60px] rounded-md'>
       <div className='lg:w-[50%] text-xl font-semibold mt-5'>
  <p>Email: monikakhade2013@gmail.com</p>
