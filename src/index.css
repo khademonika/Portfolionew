@@ -53,7 +53,14 @@ body{
   background-image: url('./assets/notesy.png'); 
   background-size: cover;
   background-position: center;
-  height: 500px;
+  /* height: 500px; */
+
+}
+.todo{
+  background-image: url('./assets/todo.png'); 
+  background-size: cover;
+  background-position: center;
+  /* height: 500px; */
 
 }
 /* img { */
