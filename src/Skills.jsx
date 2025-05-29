@@ -44,7 +44,7 @@ function Skills() {
     //   </div>
     // </div>
   <div className="px-4 sm:px-6 md:px-12 lg:px-24">
-  <h1 className="text-3xl sm:text-4xl md:text-5xl my-9 font-bold underline text-white text-center">
+  <h1 className="text-2xl sm:text-3xl md:text-5xl my-20 font-bold  text-white text-center">
     Skills Set
   </h1>
 
