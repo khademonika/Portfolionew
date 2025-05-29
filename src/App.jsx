@@ -14,12 +14,10 @@ function App() {
       <Header/>
      <div>
      <Home/>
-     {/* <Profile/> */}
      </div>
       <section id="about" >
-      {/* <AboutMe/> */}
+      <AboutMe/>
       </section>
-      {/* <Academic/> */}
 
       <section id="projects" >
         <Projects />
