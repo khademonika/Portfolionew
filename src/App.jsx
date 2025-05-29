@@ -10,7 +10,7 @@ import Contact from './Contact'
 
 function App() {
   return (
-    <div className='mx-12 box-border my-5'>
+    <div className='sm:mx-12 mx-5 box-border my-5'>
       <Header/>
      <div>
      <Home/>

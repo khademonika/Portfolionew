@@ -41,17 +41,13 @@ function Projects() {
     //       <ProjectComponent bg="TodoBG" language='React' name="Todo App" link="https://todoappmk.netlify.app/" />
     //     </div> */}
     //   </Carousel></div>
-    <div className='grid grid-cols-3 gap-24'>
-
-        <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
-         <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
-           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
-           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
-           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
-           <ProjectComponent bg="Foodbg" language='React js' name="Food Website" link="https://food-websitemk.netlify.app"/>
-
-
-    </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4">
+  <ProjectComponent bg="Foodbg" language="React js" name="Food Website" link="https://food-websitemk.netlify.app" />
+  <ProjectComponent bg="Linkdeinbg" language="Built with HTML, CSS" name="Linkedin Clone" link="https://prismatic-snickerdoodle-14a06f.netlify.app" />
+  <ProjectComponent bg="Linkdeinbg" language="Built with HTML, CSS" name="Linkedin Clone" link="https://prismatic-snickerdoodle-14a06f.netlify.app" />
+  <ProjectComponent bg="Linkdeinbg" language="Built with HTML, CSS" name="Linkedin Clone" link="https://prismatic-snickerdoodle-14a06f.netlify.app" />
+  <ProjectComponent bg="Linkdeinbg" language="Built with HTML, CSS" name="Linkedin Clone" link="https://prismatic-snickerdoodle-14a06f.netlify.app" />
+</div>
 
   
   )

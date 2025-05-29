@@ -5,27 +5,27 @@ body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  padding: 0 150px;
+  /* padding: 0 150px; */
 }
 .ATMbg {
   background-image: url('./assets/ATM.jpeg'); 
   background-size: cover;
   background-position: center;
-  height: 500px;
+  /* height: 500px; */
 
 }
 .Foodbg {
   background-image: url('./assets/Food-web.jpeg'); 
   background-size: cover;
   background-position: center;
-  height: 500px;
+  /* height: auto; */
  
 }
 .Linkdeinbg {
   background-image: url('./assets/Linkedin.jpeg');
   background-size: cover;
   background-position: center;
-  height: 500px;
+  /* height: 500px; */
 
 }
 .Patientbg{
